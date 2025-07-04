@@ -105,9 +105,10 @@ widget.GroupBox(
     urgent_alert_method="block",
     urgent_text=ACCENT
 )
+```
+![gra](https://github.com/user-attachments/assets/5394890d-ebc1-4543-84d1-0eaf0556731f)
+
     
-
-
 
 
 
