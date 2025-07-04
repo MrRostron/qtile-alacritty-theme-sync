@@ -28,9 +28,10 @@ chmod +x ~/.config/qtile/sync_alacritty.py
 import os
 import subprocess
 from libqtile import hook
+from themes import Theme
 
 # ===== Colour Theme =====
-theme = THEME.get_theme("Gruvbox") # Change theme name
+theme = Theme.get_theme("Gruvbox") # Change theme name
 
 #Theme colours
 BACKGROUND = theme.background
