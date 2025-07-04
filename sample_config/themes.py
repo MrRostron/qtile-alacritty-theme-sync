@@ -194,6 +194,7 @@ THEMES = {
         highlight="#ffd166",
         warning="#ef476f",
         glow="#3a2513",
+
         pulse="#ff9e00"
     ),
     
@@ -375,6 +376,7 @@ THEMES = {
         secondary="#ff99cc",
         highlight="#80dfff",
         warning="#ff6666",
+
         glow="#002b4d",
         pulse="#00ccff"
     ),
@@ -429,4 +431,265 @@ THEMES = {
         glow="#1d1c45",       # port-gore - dark blue glow
         pulse="#5763af",      # blue-violet - matching primary for pulses
     ),
+    # ===== Popular Light Themes =====
+    # Solarized Light - Classic light theme
+    "solarized_light": Theme(
+        name="Solarized Light",
+        background="#fdf6e3",
+        foreground="#586e75",
+        primary="#268bd2",
+        secondary="#d33682",
+        highlight="#859900",
+        warning="#dc322f",
+        glow="#eee8d5",
+        pulse="#cb4b16"
+    ),
+
+    # Gruvbox Light - Warmer light variant
+    "gruvbox_light": Theme(
+        name="Gruvbox Light",
+        background="#fbf1c7",
+        foreground="#3c3836",
+        primary="#458588",
+        secondary="#b16286",
+        highlight="#98971a",
+        warning="#cc241d",
+        glow="#ebdbb2",
+        pulse="#d79921"
+    ),
+
+    # Nord Light - Cool nordic light theme
+    "nord_light": Theme(
+        name="Nord Light",
+        background="#eceff4",
+        foreground="#2e3440",
+        primary="#5e81ac",
+        secondary="#b48ead",
+        highlight="#a3be8c",
+        warning="#bf616a",
+        glow="#e5e9f0",
+        pulse="#d08770"
+    ),
+
+    # One Light - Popular Atom editor theme
+    "one_light": Theme(
+        name="One Light",
+        background="#fafafa",
+        foreground="#383a42",
+        primary="#4078f2",
+        secondary="#a626a4",
+        highlight="#50a14f",
+        warning="#e45649",
+        glow="#f0f0f0",
+        pulse="#c18401"
+    ),
+
+    # GitHub Light - Official GitHub theme
+    "github_light": Theme(
+        name="GitHub Light",
+        background="#ffffff",
+        foreground="#24292e",
+        primary="#0366d6",
+        secondary="#6f42c1",
+        highlight="#22863a",
+        warning="#d73a49",
+        glow="#f6f8fa",
+        pulse="#d15704"
+    ),
+
+    # Material Light - Google's material design
+    "material_light": Theme(
+        name="Material Light",
+        background="#fafafa",
+        foreground="#212121",
+        primary="#3f51b5",
+        secondary="#ff4081",
+        highlight="#4caf50",
+        warning="#ff5252",
+        glow="#f5f5f5",
+        pulse="#ff9800"
+    ),
+
+    # Paper Light - Clean minimal theme
+    "paper": Theme(
+        name="Paper Light",
+        background="#eeeeee",
+        foreground="#212121",
+        primary="#00bcd4",
+        secondary="#ff4081",
+        highlight="#4caf50",
+        warning="#ff5722",
+        glow="#f5f5f5",
+        pulse="#ffc107"
+    ),
+
+    # Everforest Light - Soft natural colors
+    "everforest_light": Theme(
+        name="Everforest Light",
+        background="#f7f2df",
+        foreground="#5c6a72",
+        primary="#8da101",
+        secondary="#df69ba",
+        highlight="#3a94c5",
+        warning="#f85552",
+        glow="#efebc0",
+        pulse="#dfa000"
+    ),
+
+    # Catppuccin Latte - Popular light variant
+    "catppuccin_latte": Theme(
+        name="Catppuccin Latte",
+        background="#eff1f5",
+        foreground="#4c4f69",
+        primary="#1e66f5",
+        secondary="#ea76cb",
+        highlight="#40a02b",
+        warning="#d20f39",
+        glow="#e6e9ef",
+        pulse="#df8e1d"
+    ),
+
+    # Rosé Pine Dawn - Gentle muted theme
+    "rose_dawn": Theme(
+        name="Rosé Pine Dawn",
+        background="#faf4ed",
+        foreground="#575279",
+        primary="#286983",
+        secondary="#d7827e",
+        highlight="#56949f",
+        warning="#b4637a",
+        glow="#f2e9e1",
+        pulse="#ea9d34"
+    ),
+
+    # Tokyo Day Light - Bright vibrant theme
+    "tokyo_day": Theme(
+        name="Tokyo Day",
+        background="#e1e2e7",
+        foreground="#4a4b6a",
+        primary="#2e7de9",
+        secondary="#9854f1",
+        highlight="#587539",
+        warning="#f52a65",
+        glow="#d7d8dc",
+        pulse="#8c6c3e"
+    ),
+
+    # Horizon Light - Modern pastel theme
+    "horizon_light": Theme(
+        name="Horizon Light",
+        background="#fdf0ed",
+        foreground="#403c3d",
+        primary="#da103f",
+        secondary="#1d8991",
+        highlight="#edb8ac",
+        warning="#e95678",
+        glow="#fadad1",
+        pulse="#f09383"
+    ),
+
+    # Ayu Light - Clean developer theme
+    "ayu_light": Theme(
+        name="Ayu Light",
+        background="#fafafa",
+        foreground="#5c6773",
+        primary="#ff9940",
+        secondary="#59c2ff",
+        highlight="#86b300",
+        warning="#f07178",
+        glow="#f0f0f0",
+        pulse="#a37acc"
+    ),
+
+    # GitHub Dark Dimmed - Light-medium contrast
+    "github_dimmed": Theme(
+        name="GitHub Dimmed",
+        background="#22272e",
+        foreground="#adbac7",
+        primary="#539bf5",
+        secondary="#b083f0",
+        highlight="#57ab5a",
+        warning="#e5534b",
+        glow="#2d333b",
+        pulse="#daaa3f"
+    ),
+
+    # Summer Pop - Vibrant summer colors
+    "summer": Theme(
+        name="Summer Pop",
+        background="#fff9e6",
+        foreground="#3a405f",
+        primary="#ff6e6e",
+        secondary="#5e81ac",
+        highlight="#88c0d0",
+        warning="#bf616a",
+        glow="#ffefcf",
+        pulse="#ebcb8b"
+    ),
+
+    # Frost - Cool blue-based theme
+    "frost": Theme(
+        name="Frost Light",
+        background="#edf2f7",
+        foreground="#2d3748",
+        primary="#3182ce",
+        secondary="#9f7aea",
+        highlight="#38a169",
+        warning="#e53e3e",
+        glow="#e2e8f0",
+        pulse="#dd6b20"
+    ),
+
+    # Espresso - Coffee-inspired theme
+    "espresso": Theme(
+        name="Espresso Light",
+        background="#e8e1d1",
+        foreground="#4a3a2b",
+        primary="#c45d4c",
+        secondary="#7a9f8e",
+        highlight="#8a9b69",
+        warning="#c44f3a",
+        glow="#d8d0be",
+        pulse="#b88a5e"
+    ),
+
+    # Zenburn Light - Low-contrast comfortable theme
+    "zenburn_light": Theme(
+        name="Zenburn Light",
+        background="#f0f0e6",
+        foreground="#4f4f4f",
+        primary="#7f9f7f",
+        secondary="#dc8cc3",
+        highlight="#8cd0d3",
+        warning="#cc9393",
+        glow="#e6e0cc",
+        pulse="#e3ceab"
+    ),
+
+    # Breeze Light - KDE default theme
+    "breeze": Theme(
+        name="Breeze Light",
+        background="#fcfcfc",
+        foreground="#232627",
+        primary="#2980b9",
+        secondary="#9b59b6",
+        highlight="#27ae60",
+        warning="#da4453",
+        glow="#eff0f1",
+        pulse="#f67400"
+    ),
+
+    # Google Light - Material design colors
+    "google_light": Theme(
+        name="Google Light",
+        background="#ffffff",
+        foreground="#202124",
+        primary="#1a73e8",
+        secondary="#ea4335",
+        highlight="#34a853",
+        warning="#fbbc04",
+        glow="#f8f9fa",
+        pulse="#fa7b17"
+    )
+
 }
