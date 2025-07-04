@@ -5,7 +5,6 @@ Sync Alacritty terminal colors with your Qtile theme automatically
 - 30+ preconfigured themes
 - Automatic theme detection
 - Preserves existing Alacritty settings
-- One-command installation
 
 ## Installation
 ```bash
