@@ -5,6 +5,8 @@ Sync Alacritty terminal colors with your Qtile theme automatically
 - 30+ preconfigured themes
 - Automatic theme detection
 - Preserves existing Alacritty settings
+![git1](https://github.com/user-attachments/assets/a4ae62ea-1d33-4e1e-96af-93d86f2eb80b)
+![git2](https://github.com/user-attachments/assets/ceb36107-0044-4706-b043-2a5ee316ac1c)
 
 ## Installation
 ```bash
@@ -35,7 +37,7 @@ BACKGROUND = theme.background
 FOREGROUND = them.foreground
 PRIMARY = theme.primary
 SECONDARY = theme.highlight
-warning = theme.warning
+WARNING = theme.warning
 
 # Add hooks to hook section towards end of your config
 @hook.subscribe.startup
