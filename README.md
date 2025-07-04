@@ -12,11 +12,21 @@ Sync Alacritty terminal colors with your Qtile theme automatically. themes.py se
 ```bash
 git clone https://github.com/MrRostron/qtile-alacritty-theme-sync.git
 cd qtile-alacritty-theme-sync
-paru -S python-toml
-
+```
+```bash
+# we need the toml python package
+pip install toml
+```
+```bash
+# Arch Linux
+sudo pacman -S python-toml
+```
+```bash
 # Copy files to config directories
 cp sample_config/themes.py ~/.config/qtile/
 cp sample_config/sync_alacritty.py ~/.config/qtile/
+```
+```bash
 # make script executable
 chmod +x ~/.config/qtile/sync_alacritty.py
 ```
