@@ -45,7 +45,7 @@ theme = Theme.get_theme("Gruvbox") # Change theme name
 
 #Theme colours
 BACKGROUND = theme.background
-FOREGROUND = them.foreground
+FOREGROUND = theme.foreground
 PRIMARY = theme.primary
 SECONDARY = theme.highlight
 WARNING = theme.warning
@@ -57,14 +57,14 @@ def sync_alacritty_theme():
 
 @hook.subcribe.startup_once
 def autostart():
-subprocess.Popen([os.path.expanduser("~/.config/qtile/sync_alacritty.py")])
+    subprocess.Popen([os.path.expanduser("~/.config/qtile/sync_alacritty.py")])
 ```
 2. ** Modify Paths in `sync_alacritty.py` and `themes.py`
 
 ```python 
 # Change to user's config location if needed
 ALACRITTY_CONFIG = os.path.expanduser("~/.config/alacritty/alacritty.toml")
-QTILE_CONFIG = os.path.expanduser("~/.config/qtile/config.py")A
+QTILE_CONFIG = os.path.expanduser("~/.config/qtile/config.py")
 ```
 
 3. **Test Configuration**
