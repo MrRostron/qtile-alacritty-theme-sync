@@ -1,5 +1,5 @@
 # Qtile-Alacritty Theme Sync
-Sync Alacritty terminal colors with your Qtile theme automatically
+Sync Alacritty terminal colors with your Qtile theme automatically. themes.py serves as the centralized colour theme management across the Qtile configuration. It provides color data to bars/widgets/layouts and will sync these to Alacritty. An example of the configuration is included in sample_config/
 
 ## Features
 - 30+ preconfigured themes
@@ -15,8 +15,8 @@ cd qtile-alacritty-theme-sync
 paru -S python-toml
 
 # Copy files to config directories
-cp sync_alac/themes.py ~/.config/qtile/
-cp sync_alac/sync_alacritty.py ~/.config/qtile/
+cp sample_config/themes.py ~/.config/qtile/
+cp sample_config/sync_alacritty.py ~/.config/qtile/
 # make script executable
 chmod +x ~/.config/qtile/sync_alacritty.py
 ```
